@@ -2,7 +2,7 @@
 
 O Task Tracker 2 é um projeto usado para rastrear e gerenciar suas tarefas. Neste programa, você dispõe de uma interface de linha de comando simples (CLI) para rastrear o que você precisa fazer, o que você fez e o que você está trabalhando atualmente.
 
-Este projeto se adequa aos requisitos de projeto descritos e seção abaixo (vide [roadmap.sh](https://roadmap.sh/projects/task-tracker).
+Este projeto se adequa aos requisitos de projeto descritos e seção abaixo (vide [roadmap.sh](https://roadmap.sh/projects/task-tracker)).
 
 ## Requisitos
 
