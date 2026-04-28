@@ -29,31 +29,29 @@ Aqui estão algumas restrições para orientar a implementação:
 ## Informações do projeto
 
 - Feito em Java.
-- Usa Picocli
 - Dados salvos em JSON.
-- Usa Jackson para tratar o JSON.
 
 ## Comandos
 
 A lista de comandos e seu uso é dada abaixo:
 
 ```shell
-# Adding a new task
-java tasktracker add "Buy groceries"
-# Output: Task added successfully (ID: 1)
+# Adiciona uma nova tarefa
+java tasktracker add "Comprar mantimentos"
+# Saída: Tarefa adicionada com sucesso (ID: 1)
 
-# Updating and deleting tasks
-java tasktracker update 1 "Buy groceries and cook dinner"
+# Atualizando e excluindo tarefas
+java tasktracker update 1 "Comprar mantimentos e cozinhar o jantar"
 java tasktracker delete 1
 
-# Marking a task as in progress or done
+# Marcar uma tarefa como em andamento ou concluída
 java tasktracker mark-in-progress 1
 java tasktracker mark-done 1
 
-# Listing all tasks
+# Listando todas as tarefas
 java tasktracker list
 
-# Listing tasks by status
+# Listando tarefas por status
 java tasktracker list done
 java tasktracker list todo
 java tasktracker list in-progress
